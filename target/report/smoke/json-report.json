@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-16T09:06:41.726Z",
+        "line": 4,
+        "name": "Perform POST request to create new list",
+        "description": "",
+        "id": "verify-different-get-operation-using-rest-assured;perform-post-request-to-create-new-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6897000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform POST operation for \"/list\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/list\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_perform_POST_operation_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see status code \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_should_see_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1627000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see message \"The item/record was created successfully.\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The item/record was created successfully.\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_should_see_message_in_the_response_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Debug"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-16T09:06:50.380Z",
+        "line": 10,
+        "name": "Perform GET request on List",
+        "description": "",
+        "id": "verify-different-get-operation-using-rest-assured;perform-get-request-on-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 773000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform GET operation for \"/list\" with list id \"145550\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/list\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"145550\"",
+                  "offset": 49
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_perform_GET_operation_for_with_list_id(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_should_see_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see \"145550\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"145550\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.Steps_Common.i_should_see_in_the_response_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Debug"
+          }
+        ]
+      }
+    ],
+    "name": "Verify different GET operation using Rest-Assured",
+    "description": "",
+    "id": "verify-different-get-operation-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/config/StoryID-ListFunctionalityTest.feature",
+    "tags": []
+  }
+]
