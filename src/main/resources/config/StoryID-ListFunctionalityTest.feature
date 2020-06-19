@@ -6,7 +6,7 @@ Feature: Verify different GET operation using Rest-Assured
 		Then I should see status code "201"
 		And I should see message "The item/record was created successfully." in the response body
 		
-		@Debug
+@Debug
 	Scenario: Perform GET request on List
 		When I perform GET operation for "/list" with list id "145550"
 		Then I should see status code "200"

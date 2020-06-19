@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-16T09:06:41.726Z",
+        "start_timestamp": "2020-06-19T06:19:07.366Z",
         "line": 4,
         "name": "Perform POST request to create new list",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6897000000,
+              "duration": 4113235300,
               "status": "passed"
             },
             "line": 5,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 6000300,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 1627000000,
+              "duration": 1600091500,
               "status": "passed"
             },
             "line": 7,
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-16T09:06:50.380Z",
+        "start_timestamp": "2020-06-19T06:19:13.297Z",
         "line": 10,
         "name": "Perform GET request on List",
         "description": "",
@@ -83,7 +83,7 @@
         "steps": [
           {
             "result": {
-              "duration": 773000000,
+              "duration": 657037500,
               "status": "passed"
             },
             "line": 11,
@@ -123,7 +123,7 @@
           },
           {
             "result": {
-              "duration": 82000000,
+              "duration": 114006500,
               "status": "passed"
             },
             "line": 13,
